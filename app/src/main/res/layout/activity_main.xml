@@ -37,27 +37,27 @@
         >
 
         <RadioButton
-            android:id="@+id/MercedesButton"
+            android:id="@+id/Paper"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mercedes"
+            android:text="Paper"
             tools:layout_editor_absoluteX="90dp"
             tools:layout_editor_absoluteY="106dp" />
 
         <RadioButton
-            android:id="@+id/BMWButton"
+            android:id="@+id/Scissor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="BMW"
+            android:text="Scissor"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="106dp" />
 
         <RadioButton
-            android:id="@+id/AudiButton"
+            android:id="@+id/Rock"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Audi"
+            android:text="Rock"
             tools:layout_editor_absoluteX="202dp"
             tools:layout_editor_absoluteY="106dp" />
 
@@ -82,7 +82,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Winner"
+        android:text="User Answer"
         android:layout_marginStart="25dp"
         app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toTopOf="@id/textView3"/>
@@ -90,7 +90,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fastest"
+        android:text="Winner"
         android:layout_marginStart="25dp"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="@id/textView"/>
@@ -98,7 +98,7 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="The End"
+        android:text="Computer"
         android:layout_marginStart="25dp"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toTopOf="@id/textView2"/>
